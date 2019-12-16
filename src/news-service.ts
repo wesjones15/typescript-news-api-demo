@@ -23,7 +23,8 @@ export class NewsService {
             article["author"],
             article["description"],
             article["publishedAt"],
-            article["url"]
+            article["url"],
+            article["urlToImage"]
           );
           articleList.push(newsBlurb);
       });
