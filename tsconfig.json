@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "rootDir": "./src",
+        "module": "es6",
+        "sourceMap": false,
+        "lib": [
+          "dom",
+          "es2015",
+          "es5",
+          "es6"
+        ]
+      },
+    "include": [
+        "src/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/playground/*"
+    ]
+}
